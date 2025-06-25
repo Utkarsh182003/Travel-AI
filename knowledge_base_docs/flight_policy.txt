@@ -1,0 +1,6 @@
+Important Flight Booking Policies:
+- All international flights require booking at least 7 days in advance.
+- Economy class is the default for flights under 4 hours.
+- Business class is allowed for flights longer than 4 hours or for trips over $1000.
+- Baggage allowance is 20kg for economy and 30kg for business class.
+- Flight cancellations must be requested 24 hours prior to departure for a full refund.

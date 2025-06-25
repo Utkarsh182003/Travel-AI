@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+streamlit
+python-dotenv
+groq
+pydantic
+requests
+langchain # Added for core LangChain components
+langchain-community # Added for document loaders, embeddings, vector stores
+sentence-transformers # For HuggingFaceEmbeddings model
+chromadb # Vector database
+pypdf # (Optional, but good for future PDF loading)
+neo4j # For Neo4j integration

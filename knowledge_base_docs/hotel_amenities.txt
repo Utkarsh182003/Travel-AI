@@ -1,0 +1,6 @@
+Hotel Amenity Information:
+- All hotels in New York booked through our service include complimentary breakfast.
+- Hotels with "Family" in their name typically have a swimming pool and kid-friendly activities.
+- Spa services are available at 5-star hotels only.
+- Pet-friendly hotels must be explicitly requested.
+- Check-in time is generally 3 PM, and check-out is 11 AM unless otherwise specified.
