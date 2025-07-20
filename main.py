@@ -745,7 +745,7 @@ async def chat_with_llm(chat_input: ChatRequest):
                     if tool_output_data.get("status") == "success" and flights:
                         summary_lines = [f"Found {len(flights)} flights from {function_args.get('origin_iata')} to {function_args.get('destination_iata')} on {function_args.get('flight_date')}:"]
                         for i, flight in enumerate(flights[:3]):
-                            summary_lines.append(f"  - {flight.get('flight_number', 'N/A')} ({flight.get('airline', 'N/A')}): {flight.get('departure_time', 'N/A')} for ${flight.get('price', 0.0):.2f}")
+                            summary_lines.append(f"  - {flight.get('flight_number', 'N/A')} ({flight.get('airline', 'N/A')}): {flight.get('departure_time', 'N/A')} for ${flight.get('price_estimate', 0.0):.2f}")
                         if len(flights) > 3:
                             summary_lines.append(f"  ...and {len(flights) - 3} more flights. Ask for details if needed.")
                         output_str = "\n".join(summary_lines)

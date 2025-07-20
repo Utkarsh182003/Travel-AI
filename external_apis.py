@@ -16,6 +16,7 @@ def simulate_flight_search(origin_iata: str, destination_iata: str, flight_date:
         if flights:
             for flight in flights:
                 flight["flight_date"] = flight_date
+                flight["price"] = flight.get("price_estimate", 0.0)
             print(f"Found {len(flights)} flights from Neo4j.")
             return {"status": "success", "flights": flights}
         else:
