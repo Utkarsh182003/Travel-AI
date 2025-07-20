@@ -11,3 +11,6 @@ sentence-transformers # For HuggingFaceEmbeddings model
 chromadb # Vector database
 pypdf # (Optional, but good for future PDF loading)
 neo4j # For Neo4j integration
+#httpx # For async HTTP requests
+beautifulsoup4
+smtplib # For sending emails
